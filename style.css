@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:307px) {
+
+
+    #header::before {
+        content: "";
+        background: url('camhalf.jpg') no-repeat center center/cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        /* top: 221px; */
+        left: 0;
+        z-index: -1;
+        opacity: 0.6;
+
+    }
+
+
+}
+
+.para {
+    display: flex;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    justify-content:center;
+}
+
+
+/* Navigation Design */
+#logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav {
+    background-color: rgb(24, 23, 23);
+
+
+}
+
+.nav .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .navigation #list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav .navigation #list .list {
+    display: flex;
+    /* padding-left: 25px; */
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Calligraffitti", cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgb(21, 255, 0);
+    padding: 4px 8px;
+    margin: 3px;
+
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Calligraffitti", cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(59, 59, 218);
+    background-color: aqua;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 4px 8px;
+
+}
+
+#search {
+    display: flex;
+    align-content: center;
+    margin-right: 10px;
+    width: 30%;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: fantasy;
+
+}
+.nav input{
+    color: white;
+}
+
+
+#header::before {
+    content: "";
+    background: url('camhalf.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 51px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* Home Design */
+
+#home {
+    /* display: flex; */
+    height: 99vh;
+    /* justify-content: center; */
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+
+
+
+/* About section design */
+
+#about{
+    /* display: flex; */
+    flex-direction: column;
+    height: 99vh;
+    justify-content: center;
+}
+
+
+
+
+
+/* Services section design */
+#services{
+    /* display: flex; */
+    flex-direction: column;
+    height: 99vh;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact section Design.*/
+
+#contact {
+    /* display: flex; */
+    position: relative;
+    flex-direction: column;
+    height: 99vh;
+    justify-content: center;
+
+}
+
+.form {
+    display: flex;
+    /* position: relative; */
+    text-align: center;
+    justify-content: center;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    
+
+
+}
+
+#contact-box {
+    padding: 20px;
+    font-size: 1.2rem;
+    /* justify-content: center; */
+    
+
+}
+
+#contact textarea,
+input {
+    width: 100%;
+    margin: 5px;
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: transparent;
+   
+    
+}
+
+#contact #message {
+    height: 100px;
+
+}
+
+fieldset {
+    border-radius: 5px;
+
+}
+
+.btn {
+    
+    border: 2px solid blue;
+    background-color:transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+}
+.btn:hover {
+    
+    border: 2px solid blue;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+}
+
+
+#contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Calligraffitti", cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgb(21, 255, 0);
+    padding: 4px 8px;
+    margin: 3px;
+}
+#contact a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Calligraffitti", cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(59, 59, 218);
+    /* background-color: aqua; */
+    border-radius: 20px;
+    margin: 3px;
+    padding: 4px 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer design */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.3rem;
+    justify-content: center;
+    display: flex;
+
+}
