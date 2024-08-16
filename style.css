@@ -267,6 +267,10 @@ fieldset {
     width: auto;
 }
 
+#Logo{
+    padding-left: 108px;
+}
+
 
 #contact a {
     text-decoration: none;
@@ -291,6 +295,7 @@ fieldset {
     padding: 4px 8px;
 
 }
+
 
 
 
